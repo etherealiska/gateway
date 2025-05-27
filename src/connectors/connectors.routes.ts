@@ -173,12 +173,6 @@ export namespace ConnectorsRoutes {
             available_networks: RubiconCLOBConfig.config.availableNetworks,
           },
           {
-            name: 'quipuswap',
-            trading_type: QuipuswapConfig.config.tradingTypes,
-            chain_type: QuipuswapConfig.config.chainType,
-            available_networks: QuipuswapConfig.config.availableNetworks,
-          },
-          {
             name: 'osmosis',
             trading_type: OsmosisConfig.config.tradingTypes('swap'),
             chain_type: OsmosisConfig.config.chainType,

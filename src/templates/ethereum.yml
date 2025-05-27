@@ -43,7 +43,8 @@ networks:
     chainID: 421614
     tokenListType: FILE
     tokenListSource: /home/gateway/conf/lists/arbitrum_sepolia_tokens.json
-    nodeURL: https://rpc.ankr.com/arbitrum_sepolia
+    nodeURL: https://arbitrum-sepolia-rpc.publicnode.com
+    nativeCurrencySymbol: ETH
   sepolia:
     chainID: 11155111
     nodeURL: https://rpc.ankr.com/eth_sepolia 
